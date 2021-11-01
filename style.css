@@ -1,7 +1,7 @@
 header {
   width: 100%;
-  height: 80px;
-  background-color: #fca311;
+  height: 60px;
+  background-color: #000000;
   display: flex;
   justify-content: space-between;
 }
@@ -9,28 +9,31 @@ header {
 .titleheader {
   color: #ffffff;
   margin-left: 25px;
-  margin-top: 29px;
+  margin-top: 19px;
 }
 
 .buttonheader {
   width: 50%;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-between;
 }
 
 .button1header {
   margin-left: 45px;
 }
 
+.button2header {
+  margin-left: 45px;
+}
+
 .button3header {
-  margin-right: 45px;
+  margin-left: 45px;
 }
 
 a {
-  font-size: 25px;
+  font-size: 20px;
   color: #ffffff;
   outline: none;
   text-decoration: none;
@@ -38,7 +41,13 @@ a {
 
 a:hover {
   border-bottom: 1px solid;
-  color: black;
+  color: #e5e5e5;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  border: 1px double pink;
 }
 
 * {
@@ -51,74 +60,28 @@ body {
   font-family: "Allerta", sans-serif;
 }
 
-.homepage {
-  width: 1534px;
-  height: 670px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.box1 {
-  width: 50%;
-  height: 550px;
-}
-
 .box2 {
-  width: 760px;
-  height: 550px;
+  width: 100%;
+  height: 470px;
+  border: 1px double blue;
 }
 
-.box3 {
-  width: 50%;
-  height: 120px;
-}
-
-.photohome {
-  width: 60%;
-  height: 490px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-  border-radius: 50%;
-}
-
-.titlehome {
-  text-align: center;
+.box2 h2 {
+  /* min-height: 50vh; */
   color: white;
-  text-decoration: underline;
   vertical-align: middle;
-  margin-top: 30%;
-  margin-right: 150px;
 }
 
-.texthome {
-  text-align: center;
+.box2 h3 {
   color: white;
-  margin-top: 35px;
-  margin-right: 182px;
+  margin-top: 30px;
   line-height: 25px;
 }
 
-.texthome2 {
-  text-align: center;
+.box2 p {
   color: white;
-  margin-top: 35px;
+  margin-top: 30px;
   line-height: 25px;
-  margin-left: 182px;
-}
-
-.buttonhome {
-  width: 250px;
-  height: 90px;
-  background-color: #fca311;
-  display: flex;
-  justify-content: center;
-  vertical-align: middle;
-  align-items: center;
-  border-radius: 40%;
-  margin-left: 35%;
-  margin-top: 1%;
 }
 
 /*# sourceMappingURL=style.css.map */
