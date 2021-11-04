@@ -68,9 +68,15 @@ body {
   font-family: "Allerta", sans-serif;
 }
 
-.box1 {
+.homepage {
   width: 100%;
-  height: 580px;
+  height: 630px;
+  display: flex;
+}
+
+.box1 {
+  width: 50%;
+  height: 627px;
 }
 
 .box1 h2 {
@@ -78,37 +84,33 @@ body {
   color: white;
   vertical-align: middle;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .box1 h3 {
   color: white;
   margin-top: 30px;
   line-height: 25px;
-  text-align: center;
+  margin-left: 100px;
 }
 
 .box1 p {
   color: white;
   margin-top: 30px;
   line-height: 25px;
-  text-align: center;
 }
 
-.linkhomebutton {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: 47%;
-  margin-top: 25px;
-  background-color: black;
-  width: 80px;
-  height: 75px;
-  border-radius: 15px;
+.box2 {
+  width: 50%;
+  height: 627px;
 }
 
-.linkhome {
-  margin-top: 10px;
+.imagehome {
+  width: 60%;
+  height: 80%;
+  margin-left: 160px;
+  margin-top: 50px;
+  border-radius: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
