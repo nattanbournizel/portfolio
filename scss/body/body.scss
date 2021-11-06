@@ -80,24 +80,54 @@ body {
 .like1{
     width: 33%;
     height: 100%;
-    border: solid 1px black;
 
 }
 
 .like2{
     width: 34%;
     height: 100%;
-    border: solid 1px black;
 
 }
 
 .like3{
     width: 33%;
     height: 100%;
-    border: solid 1px black;
 
 }
 
 .titlelike1{
-    
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.textlike1{
+text-align: center;
+margin-top: 50px;
+font-size: 16px;
+line-height: 35px;
+color: #fca311;
+}
+
+.imagepreferencies{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+}
+
+.imagelike{
+    width: 237px;
+    height: 252px;
+}
+
+.imagelike2{
+    width: 244px;
+    height: 252px;
+}
+
+.imagelike3{
+    width: 237px;
+    height: 252px;
 }
